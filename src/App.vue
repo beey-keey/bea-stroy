@@ -74,11 +74,11 @@
 
     <!-- Hero section -->
     <div v-if="$route.path === '/'" class="relative">
-      <img
-        src="/bea-stroy/crane.jpg"
+      <!-- <img
+        src="crane.jpg"
         alt="Фонова снимка строителство"
         class="w-full h-[500px] object-cover"
-      />
+      /> -->
       <div
         class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-center"
       >
