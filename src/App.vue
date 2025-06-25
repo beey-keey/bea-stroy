@@ -75,7 +75,7 @@
     <!-- Hero section -->
     <div v-if="$route.path === '/'" class="relative">
       <img
-        src="/crane.jpg"
+        src="/bea-stroy/crane.jpg"
         alt="Фонова снимка строителство"
         class="w-full h-[500px] object-cover"
       />
