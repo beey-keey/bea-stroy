@@ -1,2 +1,1 @@
-# bea-stroy
-construction app
+# bea-stroy app
