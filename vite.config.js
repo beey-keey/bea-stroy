@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig({
   plugins: [vue()],
-  base: "/",
+  base: "/bea-stroy/",
   build: {
     outDir: "dist", // Specify the output directory for the production build
     assetsDir: "", // Assets directory relative to outDir
