@@ -20,7 +20,7 @@
             class="h-8 w-8"
           />
           <h1 class="text-2xl font-bold tracking-tight" style="color: white">
-            BEA STROY
+            BEA STROY GROUP
           </h1>
         </div>
 
@@ -120,7 +120,7 @@
       class="text-center text-sm py-6 border-t"
       style="background-color: #003366; color: white"
     >
-      <p>&copy; 2025 BEA Stroy. Всички права запазени.</p>
+      <p>&copy; 2025 BEA STROY GROUP. Всички права запазени.</p>
     </footer>
   </div>
 </template>
