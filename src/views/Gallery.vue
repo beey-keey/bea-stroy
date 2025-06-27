@@ -31,9 +31,10 @@
 
 <script setup lang="ts">
 const projects = [
-  { src: "https://via.placeholder.com/500", alt: "Проект 1" },
-  { src: "https://via.placeholder.com/500", alt: "Проект 2" },
-  { src: "https://via.placeholder.com/500", alt: "Проект 3" },
-  { src: "https://via.placeholder.com/500", alt: "Проект 4" },
+  { src: "/bea-stroy/Project1.jpg", alt: "Проект 1" },
+  { src: "/bea-stroy/Project2.jpg", alt: "Проект 2" },
+  { src: "/bea-stroy/Project3.jpg", alt: "Проект 3" },
+  { src: "/bea-stroy/Project4.jpeg", alt: "Проект 4" },
+  { src: "/bea-stroy/Project5.jpg", alt: "Проект 5" },
 ];
 </script>

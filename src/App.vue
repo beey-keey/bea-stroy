@@ -8,10 +8,21 @@
       <div
         class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4"
       >
+        <!-- <div class="flex items-center space-x-3">
+          <img src="/favicon.png" alt="Teres Fit Logo" class="h-8 w-8" />
+          <h1 class="font-brand text-2xl text-emerald-600">Teres Fit</h1>
+        </div> -->
         <!-- Logo -->
-        <h1 class="text-2xl font-bold tracking-tight" style="color: white">
-          BEA STROY
-        </h1>
+        <div class="flex items-center space-x-3">
+          <img
+            src="/favicon-transparent.png"
+            alt="Teres Fit Logo"
+            class="h-8 w-8"
+          />
+          <h1 class="text-2xl font-bold tracking-tight" style="color: white">
+            BEA STROY
+          </h1>
+        </div>
 
         <!-- Desktop nav -->
         <nav class="hidden md:flex space-x-6 text-sm font-medium">
@@ -32,7 +43,8 @@
 
         <!-- Mobile menu button -->
         <button
-          class="md:hidden text-gray-800"
+          class="md:hidden"
+          style="color: white"
           @click="showMenu = !showMenu"
           aria-label="Toggle menu"
         >
@@ -59,10 +71,11 @@
           v-for="link in navLinks"
           :key="link.path"
           :to="link.path"
-          class="block font-medium text-gray-800 hover:text-[#003366]"
+          class="block font-medium hover:text-[white]"
+          style="color: white"
           :class="
             $route.path === link.path
-              ? 'text-[#003366] font-semibold underline'
+              ? 'text-[white] font-semibold underline'
               : ''
           "
           @click="showMenu = false"

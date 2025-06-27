@@ -3,11 +3,11 @@
     <div class="mx-auto max-w-3xl">
       <h1 class="text-3xl font-bold text-[#003366] mb-2">Контакти</h1>
       <p class="text-gray-600 mb-6">
-        Можете да се свържете с нас чрез формата по-долу или да се обадите на
-        телефон: <strong>+359 8777 356 282</strong>.
+        Можете да се свържете с нас като обадите на телефон:
+        <strong>+359 8777 356 282</strong>.
       </p>
 
-      <div class="rounded-lg bg-white p-6 shadow-md">
+      <!-- <div class="rounded-lg bg-white p-6 shadow-md">
         <form action="submit_form.php" method="post" class="space-y-4">
           <input
             type="text"
@@ -37,7 +37,7 @@
             Изпратете
           </button>
         </form>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
