@@ -98,7 +98,7 @@
         <h2
           class="text-4xl md:text-5xl font-extrabold text-white drop-shadow mb-4"
         >
-          БЕА СТРОЙ
+          БЕА СТРОЙ ГРУП
         </h2>
         <p class="text-lg md:text-xl text-gray-100 drop-shadow max-w-2xl px-4">
           Строителство на сгради и съоръжения с високо качество и експертност.
